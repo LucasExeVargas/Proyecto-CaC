@@ -1,6 +1,17 @@
 body{
     background-color: black;
 }
+
+.bg-dark-custom {
+    background-color: #171717; /* Puedes ajustar este color según tus preferencias */
+}
+
+.container-fluid {
+    max-width: 1510px; /* Puedes ajustar este valor según tus necesidades */
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -35,7 +46,7 @@ body{
 
 .col-lg-3{
     padding-right: 7px;
-    padding-left: 32px;
+    padding-left: 8px;
 
 }
 
@@ -44,3 +55,101 @@ body{
     padding-right: 7px;
 }
 
+.list-unstyled{
+    font-size:small;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+
+.footer-wrapper {
+    background-color: #171717; 
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.footer{
+    margin: 0; 
+}
+
+.footer a {
+    color: gray; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    color: gray; 
+    text-decoration: none; 
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.rounded-pillBtn {
+    border: 0.5px solid white;
+    border-radius: 50px; 
+    padding: 6px 15px; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 13px;
+
+}
+
+.btnIdioma{
+    padding-top: 20px;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.btnLista{
+    background-color: white;
+}
+.bg-gray{
+    background-color: rgb(42, 41, 41);
+}
+
+.biblioteca{
+    padding-bottom: 20px;
+}
+
+.textoEtiqueta1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.textoEtiqueta2{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.footerFinal{
+    text-align: left;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, #aa2e9a, #718bda); /* Cambia los colores según tus preferencias */
+}
+
+<!-- Nuevo-->
+
+.scroll {
+    overflow-y: auto;
+    max-height: calc(100vh - 60px); /* Ajusta la altura según sea necesario, restando el espacio del encabezado */
+}
+
+.scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px; /* Agrega un poco de espacio inferior para evitar que el contenido se solape con la barra de desplazamiento */
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Ajusta el espacio entre secciones según tus necesidades */
+    white-space: normal; /* Restablece el comportamiento de salto de línea */
+}
