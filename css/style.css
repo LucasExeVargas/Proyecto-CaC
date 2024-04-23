@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar {
+    padding-bottom: 7px;
+    margin-top: 10px;
+}
+
+.bg-secondarybutton {
+    background-color: #ffffff; 
+    padding: 12px 33px !important; 
+}
+
+.rounded-pill {
+    border-radius: 50px; 
+}
+
+.rounded-pillBarra {
+    border-radius: 10px; 
+}
+.botones{
+    padding-right: 30px;
+
+}
+
+.buttonA{
+    margin-right: 24px;
+    padding-top: 12px;
+}
+
+.col-lg-3{
+    padding-right: 7px;
+    padding-left: 32px;
+
+}
+
+.col-lg-9{
+    padding: 0;
+    padding-right: 7px;
+}
+
