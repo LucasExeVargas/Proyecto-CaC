@@ -32,7 +32,7 @@ html, body {
     margin-bottom: 20px;
     color: #ccc;
     font-family: "Tajawal", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
   }
   
@@ -44,7 +44,7 @@ html, body {
     border: 1px solid #ccc;
     box-sizing: border-box;
     font-family: "Tajawal", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     
   }
@@ -58,7 +58,7 @@ html, body {
     border-radius: 50px;
     cursor: pointer;
     font-family: "Tajawal", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
   }
   
