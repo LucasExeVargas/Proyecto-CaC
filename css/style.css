@@ -133,3 +133,23 @@ body{
 .gradient-bg {
     background: linear-gradient(to right, #aa2e9a, #718bda); /* Cambia los colores según tus preferencias */
 }
+
+<!-- Nuevo-->
+
+.scroll {
+    overflow-y: auto;
+    max-height: calc(100vh - 60px); /* Ajusta la altura según sea necesario, restando el espacio del encabezado */
+}
+
+.scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px; /* Agrega un poco de espacio inferior para evitar que el contenido se solape con la barra de desplazamiento */
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Ajusta el espacio entre secciones según tus necesidades */
+    white-space: normal; /* Restablece el comportamiento de salto de línea */
+}
