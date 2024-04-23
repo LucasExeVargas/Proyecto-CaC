@@ -14,28 +14,51 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="barraPrincipal">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-pillBarra">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom rounded-pillBarra">
                         <div class="container-fluid">
                           <nav class="navbar-nav flex-column menuPrincipal">
-                            <a class="nav-link ms-3" href="#"><img src="./logos/spotify.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Spotify</a>
-                            <a class="nav-link ms-3" href="#"><img src="./logos/inicio.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Inicio</a>
-                            <a class="nav-link ms-3" href="#"><img src="./logos/buscar.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Buscar</a>
+                            <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/spotify.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Spotify</a>
+                            <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/inicio.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Inicio</a>
+                            <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/buscar.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Buscar</a>
                           </nav>
                         </div>
                       </nav>
-                </div>    
+                </div>
+                
+                <div class="footer-wrapper">
+                  <a class="nav-link ms-3 text-gray fw-bold biblioteca" href="#"><img src="./logos/biblioteca.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Tu Biblioteca</a>
+                  <div class="etiqueta bg-gray rounded-pillBarra">
+                    <p class="textoEtiqueta1 text-white fw-bold mb-0">Crea tu primera lista</p>
+                    <p class="textoEtiqueta2 text-white" style="font-size: 14px;">Es muy facil, y te echaremos una mano.</p>
+                    <button class="btnLista btn-primary rounded-pill ms-3 fw-bold px-3 py-1" style="margin-bottom: 20px;">Crear lista</button>
+                  </div>
+                 
+                  <footer class="footer mt-auto py-3 bg-dark-custom">
+                      <ul class="list-unstyled">
+                          <li><a href="#">Legal</a></li>
+                          <li><a href="#">Centro de seguridad y privacidad</a></li>
+                          <li><a href="#">Políticas de privacidad</a></li>
+                          <li><a href="#">Cookies</a></li>
+                          <li><a href="#">Información sobre los anuncios</a></li>
+                          <li><a href="#">Accesibilidad</a></li>
+                      </ul>
+                      <div class="btnIdioma">
+                          <a class="rounded-pillBtn nav-link ms-2 text-white" href="#"><img src="./logos/red-mundial.png" alt="Icono 1" style="width: 20px; height: 20px; filter: brightness(0) invert(1);" class="me-2">Español de España</a>
+                      </div>
+                  </footer>
+                </div>
             </div>
 
             <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-dark rounded-pillBarra">
+                <nav class="navbar navbar-expand-lg bg-dark-custom rounded-pillBarra">
                     <div class="container-fluid">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                             <div class="navbar-nav botones">
-                                <a class="buttonA nav-link active rounded-pill text-white" aria-current="page" href="#">Registrarte</a>
-                                <a class="nav-link active bg-secondarybutton button rounded-pill text-black" aria-current="page" href="#">Iniciar Sesión</a>
+                                <a class="buttonA nav-link active rounded-pill text-white fw-bold" aria-current="page" href="#">Registrarte</a>
+                                <a class="nav-link active bg-secondarybutton button rounded-pill text-black fw-bold" aria-current="page" href="#">Iniciar Sesión</a>
                             </div>
                         </div>
                     </div>
@@ -46,4 +69,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </body>
+<footer class="footerFinal gradient-bg text-white text-left fw-bold" style="padding-top: 5px; padding-bottom: 15px; margin-top: 6px;">
+  <div class="d-flex justify-content-between align-items-start">
+      <div>
+          <p class="mb-0" style="padding-left: 12px; font-size: 15px; padding-top: 6px;">Muestra de Spotify.</p>
+          <p class="m-0" style="padding-left: 12px; font-size: 15px;">Registrate para disfrutar de canciones y podcasts sin limites, con anuncios ocasionales. No hace falta tarjeta de credito.</p>
+      </div>
+      <div>
+          <button class="btn btn-outline-light rounded-pill mt-3 fw-bold" style="margin-right:20px ;">Registrate Gratis</button>
+      </div>
+  </div>
+</footer>
 </html>
