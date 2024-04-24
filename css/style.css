@@ -159,7 +159,13 @@ body{
     align-items: center; /* Centrar horizontalmente */
     justify-content: center; /* Centrar verticalmente */
     padding: 10px;
+    padding-top: 30px;
 }
+
+.artista-item img:hover {
+    transform: scale(1.1); /* Cambia el valor según la cantidad que desees agrandar la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave para que el cambio de tamaño sea más gradual */
+  }
 
 .container-principal { /*borde del contenedor de artistas*/
     border: 1px solid #dee2e6;
