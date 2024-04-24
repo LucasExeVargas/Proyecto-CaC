@@ -30,7 +30,9 @@ html, body {
   
   .login-box h2 {
     margin-bottom: 20px;
+
     padding: 1rem;
+
     color: #ccc;
     font-family: "Tajawal", sans-serif;
     font-weight: 500;
@@ -41,6 +43,7 @@ html, body {
     width: 100%;
     padding: 10px;
     margin-bottom: 1.5rem;
+
     border-radius: 50px;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -62,6 +65,7 @@ html, body {
     font-weight: 500;
     font-style: normal;
   }
+
   .ayuda {
     padding: 10px;
     margin-top: 70px;
@@ -70,10 +74,10 @@ html, body {
     color: #787878;
     font-weight: 400;
 }
-.divAyuda {
+ .divAyuda {
   padding-top: 10px;
 }
-  
+
 /* Estilos para el botón Subscribe */
 button {
     padding: 0;

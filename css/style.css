@@ -1,93 +1,92 @@
-body{
+
+body{ /* Color de fondo body */
     background-color: black;
 }
 
-.bg-dark-custom {
-    background-color: #171717; /* Puedes ajustar este color según tus preferencias */
+
+.bg-dark-custom { /* Fondo de contenedores internos */
+    background-color: #171717; 
 }
 
-.container-fluid {
-    max-width: 1510px; /* Puedes ajustar este valor según tus necesidades */
+.container-fluid { /* Contenedor general */
+    max-width: 1510px; 
     margin-right: auto;
     margin-left: auto;
-}
-
-.container-fluid {
     padding-right: 0;
     padding-left: 0;
 }
 
-.navbar {
-    padding-bottom: 7px;
-    margin-top: 10px;
-}
-
-.bg-secondarybutton {
-    background-color: #ffffff; 
-    padding: 12px 33px !important; 
-}
-
-.rounded-pill {
-    border-radius: 50px; 
-}
-
-.rounded-pillBarra {
-    border-radius: 10px; 
-}
-.botones{
-    padding-right: 30px;
-
-}
-
-.buttonA{
-    margin-right: 24px;
-    padding-top: 12px;
-}
-
-.col-lg-3{
+.col-lg-3{ /* Posicionamiento de columna izquierda (3 unidades de ancho) */
     padding-right: 7px;
     padding-left: 8px;
 
 }
 
-.col-lg-9{
+.col-lg-9{ /* Posicionamiento de columna derecha (9 unidades de ancho) */
     padding: 0;
     padding-right: 7px;
 }
 
-.list-unstyled{
+.navbar { /* Barra de navegacion derecha */
+    padding-bottom: 7px;
+    margin-top: 10px;
+}
+
+.bg-secondarybutton { /* Boton iniciar sesion */
+    background-color: #ffffff; 
+    padding: 12px 33px !important; 
+}
+
+.rounded-pill { /* Redondeo de boton */
+    border-radius: 50px; 
+}
+
+.rounded-pillBarra { /* Redondedo de fondo de barra */
+    border-radius: 10px; 
+}
+.botones{ /* Posicionamiento de ambos botones */
+    padding-right: 30px;
+
+}
+
+.buttonA{ /* Posicionamiento boton Registrate */
+    margin-right: 24px;
+    padding-top: 12px;
+}
+
+.list-unstyled{ /* Posicionamiento footer de columna izquierda */
     font-size:small;
     padding-left: 10px;
     padding-top: 45px;
 }
 
-.footer-wrapper {
+.footer-wrapper { /* Fondo de contenedor del footer de columna izquierda */
     background-color: #171717; 
     padding: 10px; 
     border-radius: 10px;
     margin-top: 10px; 
 }
-.footer{
-    margin: 0; 
+.footer{ 
+    margin: 0; /* Posicion de footer de columna izquierda */
 }
 
-.footer a {
+.footer a { /* Textos del footer de columna izquierda */
     color: gray; 
     text-decoration: none; 
 }
 
-.footer a:hover {
+.footer a:hover { /* Textos del footer de columna izquierda */
     color: gray; 
     text-decoration: none; 
 }
 
-.footer ul {
+.footer ul { /* Posicion de textos de footer de columna izquierda */
     display: flex;
     flex-wrap: wrap; 
     gap: 20px;
 }
 
-.rounded-pillBtn {
+.rounded-pillBtn { /* Redondedo de boton */
     border: 0.5px solid white;
     border-radius: 50px; 
     padding: 6px 15px; 
@@ -97,39 +96,39 @@ body{
 
 }
 
-.btnIdioma{
+.btnIdioma{ /* Posicion de boton de cambio de idioma */
     padding-top: 20px;
 }
 
-.text-gray{
+.text-gray{ /* Color de texto */
     color: gray;
 }
 
-.btnLista{
+.btnLista{ /* Color de fondo del boton de crear lista */
     background-color: white;
 }
-.bg-gray{
+.bg-gray{ /* Color de fondo */
     background-color: rgb(42, 41, 41);
 }
 
-.biblioteca{
+.biblioteca{ /* Posicion del boton Tu Biblioteca */
     padding-bottom: 20px;
 }
 
-.textoEtiqueta1{
+.textoEtiqueta1{ /* Texto 1 de cuadro de crear lista*/
     padding-top: 20px;
     padding-left: 20px;
 }
 
-.textoEtiqueta2{
+.textoEtiqueta2{ /* Texto 2 de cuadro de crear lista */
     padding-top: 0px;
     padding-left: 20px;
 }
 
-.footerFinal{
+.footerFinal{ /* Footer colorido */
     text-align: left;
 }
 
-.gradient-bg {
-    background: linear-gradient(to right, #aa2e9a, #718bda); /* Cambia los colores según tus preferencias */
+.gradient-bg { /* Color degradado */
+    background: linear-gradient(to right, #aa2e9a, #6ca0e8); /* Cambia los colores según tus preferencias */
 }

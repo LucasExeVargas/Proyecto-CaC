@@ -8,7 +8,9 @@ html, body {
 .gradiente {
   width: 100%;
   height: 100vh;
+
   background-image: linear-gradient(to bottom, #45b196, #000);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +20,9 @@ html, body {
   background-color: rgb(42, 42, 42);
   width: 30%;
   margin: 0 auto;
+
   border-radius: 80px;
+
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
@@ -35,11 +39,13 @@ html, body {
   font-family: "Tajawal", sans-serif;
   font-weight: 500;
   font-style: normal;
+
 }
 
 .login-box input {
   width: 100%;
   padding: 10px;
+
   margin-bottom: 1.5rem;
   border-radius: 50px;
   border: 1px solid #ccc;
@@ -67,6 +73,7 @@ html, body {
   background-color: #1d5e69;
   color: #fff;
   border: none;
+
   border-radius: 50px;
   cursor: pointer;
   font-family: "Tajawal", sans-serif;
@@ -149,4 +156,5 @@ button svg {
 
 select {
   font-size: 1rem;
+
 }
