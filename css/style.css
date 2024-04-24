@@ -1,8 +1,6 @@
-
-body{ /* Color de fondo body */
+body{
     background-color: black;
 }
-
 
 .bg-dark-custom {
     background-color: #171717; /* Puedes ajustar este color según tus preferencias */
@@ -15,128 +13,46 @@ body{ /* Color de fondo body */
 }
 
 .container-fluid {
-
     padding-right: 0;
     padding-left: 0;
 }
 
-.col-lg-3{ /* Posicionamiento de columna izquierda (3 unidades de ancho) */
-    padding-right: 7px;
-    padding-left: 8px;
-
-}
-
-.col-lg-9{ /* Posicionamiento de columna derecha (9 unidades de ancho) */
-    padding: 0;
-    padding-right: 7px;
-}
-
-.navbar { /* Barra de navegacion derecha */
+.navbar {
     padding-bottom: 7px;
     margin-top: 10px;
 }
 
-.bg-secondarybutton { /* Boton iniciar sesion */
+.bg-secondarybutton {
     background-color: #ffffff; 
     padding: 12px 33px !important; 
 }
 
-.rounded-pill { /* Redondeo de boton */
+.rounded-pill {
     border-radius: 50px; 
 }
 
-.rounded-pillBarra { /* Redondedo de fondo de barra */
+.rounded-pillBarra {
     border-radius: 10px; 
 }
-.botones{ /* Posicionamiento de ambos botones */
+.botones{
     padding-right: 30px;
 
 }
 
-.buttonA{ /* Posicionamiento boton Registrate */
+.buttonA{
     margin-right: 24px;
     padding-top: 12px;
 }
-
 
 .col-lg-3{
     padding-right: 7px;
     padding-left: 8px;
 
-.list-unstyled{ /* Posicionamiento footer de columna izquierda */
-    font-size:small;
-    padding-left: 10px;
-    padding-top: 45px;
 }
 
-.footer-wrapper { /* Fondo de contenedor del footer de columna izquierda */
-    background-color: #171717; 
-    padding: 10px; 
-    border-radius: 10px;
-    margin-top: 10px; 
-}
-.footer{ 
-    margin: 0; /* Posicion de footer de columna izquierda */
-}
-
-
-.footer a { /* Textos del footer de columna izquierda */
-    color: gray; 
-    text-decoration: none; 
-}
-
-.footer a:hover { /* Textos del footer de columna izquierda */
-    color: gray; 
-    text-decoration: none; 
-}
-
-.footer ul { /* Posicion de textos de footer de columna izquierda */
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-}
-
-.rounded-pillBtn { /* Redondedo de boton */
-    border: 0.5px solid white;
-    border-radius: 50px; 
-    padding: 6px 15px; 
-    display: inline-block; 
-    text-decoration: none; 
-    font-size: 13px;
-
-}
-
-.btnIdioma{ /* Posicion de boton de cambio de idioma */
-    padding-top: 20px;
-}
-
-.text-gray{ /* Color de texto */
-    color: gray;
-}
-
-.btnLista{ /* Color de fondo del boton de crear lista */
-    background-color: white;
-}
-.bg-gray{ /* Color de fondo */
-    background-color: rgb(42, 41, 41);
-}
-
-.biblioteca{ /* Posicion del boton Tu Biblioteca */
-    padding-bottom: 20px;
-}
-
-.textoEtiqueta1{ /* Texto 1 de cuadro de crear lista*/
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.textoEtiqueta2{ /* Texto 2 de cuadro de crear lista */
-    padding-top: 0px;
-    padding-left: 20px;
-}
-
-.footerFinal{ /* Footer colorido */
-    text-align: left;
+.col-lg-9{
+    padding: 0;
+    padding-right: 7px;
 }
 
 .list-unstyled{
@@ -254,5 +170,4 @@ body{ /* Color de fondo body */
 #main > header,
 #main > .scroll {
     margin: 7px;
-
 }
