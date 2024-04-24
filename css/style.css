@@ -1,6 +1,8 @@
-body{
+
+body{ /* Color de fondo body */
     background-color: black;
 }
+
 
 .bg-dark-custom {
     background-color: #171717; /* Puedes ajustar este color según tus preferencias */
@@ -13,46 +15,128 @@ body{
 }
 
 .container-fluid {
+
     padding-right: 0;
     padding-left: 0;
 }
 
-.navbar {
-    padding-bottom: 7px;
-    margin-top: 10px;
-}
-
-.bg-secondarybutton {
-    background-color: #ffffff; 
-    padding: 12px 33px !important; 
-}
-
-.rounded-pill {
-    border-radius: 50px; 
-}
-
-.rounded-pillBarra {
-    border-radius: 10px; 
-}
-.botones{
-    padding-right: 30px;
-
-}
-
-.buttonA{
-    margin-right: 24px;
-    padding-top: 12px;
-}
-
-.col-lg-3{
+.col-lg-3{ /* Posicionamiento de columna izquierda (3 unidades de ancho) */
     padding-right: 7px;
     padding-left: 8px;
 
 }
 
-.col-lg-9{
+.col-lg-9{ /* Posicionamiento de columna derecha (9 unidades de ancho) */
     padding: 0;
     padding-right: 7px;
+}
+
+.navbar { /* Barra de navegacion derecha */
+    padding-bottom: 7px;
+    margin-top: 10px;
+}
+
+.bg-secondarybutton { /* Boton iniciar sesion */
+    background-color: #ffffff; 
+    padding: 12px 33px !important; 
+}
+
+.rounded-pill { /* Redondeo de boton */
+    border-radius: 50px; 
+}
+
+.rounded-pillBarra { /* Redondedo de fondo de barra */
+    border-radius: 10px; 
+}
+.botones{ /* Posicionamiento de ambos botones */
+    padding-right: 30px;
+
+}
+
+.buttonA{ /* Posicionamiento boton Registrate */
+    margin-right: 24px;
+    padding-top: 12px;
+}
+
+
+.col-lg-3{
+    padding-right: 7px;
+    padding-left: 8px;
+
+.list-unstyled{ /* Posicionamiento footer de columna izquierda */
+    font-size:small;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+
+.footer-wrapper { /* Fondo de contenedor del footer de columna izquierda */
+    background-color: #171717; 
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.footer{ 
+    margin: 0; /* Posicion de footer de columna izquierda */
+}
+
+
+.footer a { /* Textos del footer de columna izquierda */
+    color: gray; 
+    text-decoration: none; 
+}
+
+.footer a:hover { /* Textos del footer de columna izquierda */
+    color: gray; 
+    text-decoration: none; 
+}
+
+.footer ul { /* Posicion de textos de footer de columna izquierda */
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.rounded-pillBtn { /* Redondedo de boton */
+    border: 0.5px solid white;
+    border-radius: 50px; 
+    padding: 6px 15px; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 13px;
+
+}
+
+.btnIdioma{ /* Posicion de boton de cambio de idioma */
+    padding-top: 20px;
+}
+
+.text-gray{ /* Color de texto */
+    color: gray;
+}
+
+.btnLista{ /* Color de fondo del boton de crear lista */
+    background-color: white;
+}
+.bg-gray{ /* Color de fondo */
+    background-color: rgb(42, 41, 41);
+}
+
+.biblioteca{ /* Posicion del boton Tu Biblioteca */
+    padding-bottom: 20px;
+}
+
+.textoEtiqueta1{ /* Texto 1 de cuadro de crear lista*/
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.textoEtiqueta2{ /* Texto 2 de cuadro de crear lista */
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.footerFinal{ /* Footer colorido */
+    text-align: left;
 }
 
 .list-unstyled{
@@ -132,4 +216,43 @@ body{
 
 .gradient-bg {
     background: linear-gradient(to right, #aa2e9a, #718bda); /* Cambia los colores según tus preferencias */
+}
+
+<!-- Nuevo-->
+
+.scroll {
+    overflow-y: auto;
+    max-height: calc(100vh - 60px); /* Ajusta la altura según sea necesario, restando el espacio del encabezado */
+}
+
+.scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px; /* Agrega un poco de espacio inferior para evitar que el contenido se solape con la barra de desplazamiento */
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Ajusta el espacio entre secciones según tus necesidades */
+    white-space: normal; /* Restablece el comportamiento de salto de línea */
+}
+.artista-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+.container-principal { /*borde del contenedor de artistas*/
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+}
+
+/* Agregamos margen a los elementos dentro del main */
+#main > header,
+#main > .scroll {
+    margin: 7px;
+
 }

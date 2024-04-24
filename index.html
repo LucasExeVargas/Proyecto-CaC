@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- Encabezado -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>SpotifyCopia</title>
@@ -12,15 +12,14 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-
-    <div class="container-fluid">
+<body> <!-- Body -->
+    <div class="container-fluid"> <!-- Contenedor principal -->
         <div class="row">
-            <div class="col-lg-3">
-                <div class="barraPrincipal">
+            <div class="col-lg-3"> <!-- Columna izquierda de ancho 3 -->
+                <div class="barraPrincipal"> <!-- Contenedor de barra de navegacion principal -->
                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom rounded-pillBarra">
                         <div class="container-fluid">
-                          <nav class="navbar-nav flex-column menuPrincipal">
+                          <nav class="navbar-nav flex-column menuPrincipal"> <!-- Botones de inicio, busqueda y Spotify -->
                             <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/spotify.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Spotify</a>
                             <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/inicio.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Inicio</a>
                             <a class="nav-link ms-3 fw-bold" href="#"><img src="./logos/buscar.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Buscar</a>
@@ -29,7 +28,7 @@
                       </nav>
                 </div>
                 
-                <div class="footer-wrapper">
+                <div class="footer-wrapper"> <!-- Cuadro secundario de la columna izquierda -->
                   <a class="nav-link ms-3 text-gray fw-bold biblioteca" href="#"><img src="./logos/biblioteca.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Tu Biblioteca</a>
                   <div class="etiqueta bg-gray rounded-pillBarra">
                     <p class="textoEtiqueta1 text-white fw-bold mb-0">Crea tu primera lista</p>
@@ -37,7 +36,7 @@
                     <button class="btnLista btn-primary rounded-pill ms-3 fw-bold px-3 py-1" style="margin-bottom: 20px;">Crear lista</button>
                   </div>
                  
-                  <footer class="footer mt-auto py-3 bg-dark-custom">
+                  <footer class="footer mt-auto py-3 bg-dark-custom"> <!-- Footer de la columna izquierda -->
                       <ul class="list-unstyled">
                           <li><a href="#">Legal</a></li>
                           <li><a href="#">Centro de seguridad y privacidad</a></li>
@@ -51,37 +50,167 @@
                       </div>
                   </footer>
                 </div>
-            </div>
+            </div>  
 
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-dark-custom rounded-pillBarra">
+            <div class="col-lg-9"> <!-- Columna derecha de ancho 9 -->
+                <nav class="navbar navbar-expand-lg bg-dark-custom rounded-pillBarra"> <!-- Barra de navegacion superior -->
                     <div class="container-fluid">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                             <div class="navbar-nav botones">
-                                <a class="buttonA nav-link active rounded-pill text-white fw-bold" aria-current="page" href="#">Registrarte</a>
-                                <a class="nav-link active bg-secondarybutton button rounded-pill text-black fw-bold" aria-current="page" href="#">Iniciar Sesión</a>
+                                <a class="buttonA nav-link active rounded-pill text-white fw-bold" aria-current="page" href="registro.html">Registrarte</a>
+                                <a class="nav-link active bg-secondarybutton button rounded-pill text-black fw-bold" aria-current="page" href="login.html">Iniciar Sesión</a>
+                            </div>
+                        </nav>
+                    </div>
+                    
+                    <div class="footer-wrapper">
+                    <a class="nav-link ms-3 text-gray fw-bold biblioteca" href="#"><img src="./logos/biblioteca.png" alt="Icono 1" style="width: 24px; height: 24px; filter: brightness(0) invert(1);" class="me-2">Tu Biblioteca</a>
+                    <div class="etiqueta bg-gray rounded-pillBarra">
+                        <p class="textoEtiqueta1 text-white fw-bold mb-0">Crea tu primera lista</p>
+                        <p class="textoEtiqueta2 text-white" style="font-size: 14px;">Es muy facil, y te echaremos una mano.</p>
+                        <button class="btnLista btn-primary rounded-pill ms-3 fw-bold px-3 py-1" style="margin-bottom: 20px;">Crear lista</button>
+                    </div>
+                    
+                    <footer class="footer mt-auto py-3 bg-dark-custom">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Centro de seguridad y privacidad</a></li>
+                            <li><a href="#">Políticas de privacidad</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">Información sobre los anuncios</a></li>
+                            <li><a href="#">Accesibilidad</a></li>
+                        </ul>
+                        <div class="btnIdioma">
+                            <a class="rounded-pillBtn nav-link ms-2 text-white" href="#"><img src="./logos/red-mundial.png" alt="Icono 1" style="width: 20px; height: 20px; filter: brightness(0) invert(1);" class="me-2">Español de España</a>
+                        </div>
+                    </footer>
+                    </div>
+                </div>
+                
+                <!-- Parte negra de la pagina -->
+                <!-- Cambios de lauta -->
+                <div class="col-lg-9">
+                    <!-- Cambie el nav y lo puse dentro del main principal -->
+                    <main id="main" class="mainPrincipal">
+                        <header>
+                            <nav class="navbar navbar-expand-lg bg-dark-custom rounded-pillBarra">
+                                <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                                        <div class="navbar-nav botones">
+                                            <a class="buttonA nav-link active rounded-pill text-white fw-bold" aria-current="page" href="#">Registrarte</a>
+                                            <a class="nav-link active bg-secondarybutton button rounded-pill text-black fw-bold" aria-current="page" href="#">Iniciar Sesión</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </header>
+                        <!-- Aquí agrega el div con desplazamiento vertical -->
+                        <div class="scroll">
+                            
+                            <!-- Sección de artistas populares -->
+                            <!-- Contenido de artistas populares aquí -->
+                            <div class="scroll-horizontal">
+                                <section class="sectionArtistasPopulares bg-dark-custom d-flex justify-content-center align-items-center">
+                                    <header>
+                                        <nav class="navbar navbar-expand-lg rounded-pillBarra">
+                                            <div class="container-fluid">
+                                                <button class="navbar-toggler text-white fw-bold mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#artistasPopulares" aria-controls="artistasPopulares" aria-expanded="false" aria-label="Toggle navigation">
+                                                    <a class="buttonA nav-link active rounded-pill text-white fw-bold" aria-current="page" href="#">Artistas populares</a>
+                                                </button>
+                                            </div>
+                                        </nav>
+                                    </header>
+                                    
+                                    <div class="artistas-container d-flex flex-row justify-content-center align-items-center">
+                                        <!-- Artista 1 -->
+                                        <div class="artista-item">
+                                            <img src="artista/duki.jpeg" alt="Duki" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista1 text-white fw-bold mb-0">Duki</p>
+                                        </div>
+                                        <!-- Artista 2 -->
+                                        <div class="artista-item">
+                                            <img src="artista/cro.jpg" alt="Cro" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista2 text-white fw-bold mb-0">Cro</p>
+                                        </div>
+                                        <!-- Artista 3 -->
+                                        <div class="artista-item">
+                                            <img src="artista/ysya.jpg" alt="Ysy A" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista3 text-white fw-bold mb-0">Ysy A</p>
+                                        </div>
+                                        <!-- Artista 4 -->
+                                        <div class="artista-item">
+                                            <img src="artista/nicki.jpg" alt="Nicki Nicole" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista4 text-white fw-bold mb-0">Nicki Nicole</p>
+                                        </div>
+                                        <!-- Artista 5 -->
+                                        <div class="artista-item">
+                                            <img src="artista/tiago.jpeg" alt="Tiago PZK" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista1 text-white fw-bold mb-0">Tiago PZK</p>
+                                        </div>
+                                        <!-- Artista 6 -->
+                                        <div class="artista-item">
+                                            <img src="artista/emilia.jpeg" alt="Emilia Mernes" style="width: 100%; height: auto; border-radius: 70%;">
+                                            <p class=" textoArtista1 text-white fw-bold mb-0">Emilia</p>
+                                        </div>
+                                        <!-- Agrega más artistas aquí -->
+                                    </div>
+                                </section>
+                            </div>
+                            
+                            <!-- Sección de tendencias -->
+                            <div class="scroll-horizontal">
+                                <section class="sectionTendencias">
+                                    <!-- Contenido de tendencias aquí -->
+                                </section>
+                            </div>
+
+                            <!-- Sección de rankings -->
+                            <div class="scroll-horizontal">
+                                <section class="sectionRankings">
+                                    <!-- Contenido de rankings aquí -->
+
+                                </section>
                             </div>
                         </div>
-                    </div>
-                  </nav>
-            </div>
+                    </main>
+                </div>
+            <!-- agregar foto de los albunes -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    </body>
+
+    <footer class="footerFinal gradient-bg text-white text-left fw-bold" style="padding-top: 5px; padding-bottom: 15px; margin-top: 6px;">
+    <div class="d-flex justify-content-between align-items-start">
+        <div>
+            <p class="mb-0" style="padding-left: 12px; font-size: 15px; padding-top: 6px;">Muestra de Spotify.</p>
+            <p class="m-0" style="padding-left: 12px; font-size: 15px;">Registrate para disfrutar de canciones y podcasts sin limites, con anuncios ocasionales. No hace falta tarjeta de credito.</p>
+        </div>
+        <div>
+            <button class="btn btn-outline-light rounded-pill mt-3 fw-bold" style="margin-right:20px ;">Registrate Gratis</button>
         </div>
     </div>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
-</body>
-<footer class="footerFinal gradient-bg text-white text-left fw-bold" style="padding-top: 5px; padding-bottom: 15px; margin-top: 6px;">
-  <div class="d-flex justify-content-between align-items-start">
-      <div>
+</body> <!-- Fin de Body -->
+
+<footer class="footerFinal gradient-bg text-white text-left fw-bold" style="padding-top: 5px; padding-bottom: 15px; margin-top: 6px;"> <!-- Footer colorido -->
+  <div class="d-flex justify-content-between align-items-start"> <!-- Contenedor principal de footer colorido -->
+      <div> <!-- Textos del footer -->
           <p class="mb-0" style="padding-left: 12px; font-size: 15px; padding-top: 6px;">Muestra de Spotify.</p>
           <p class="m-0" style="padding-left: 12px; font-size: 15px;">Registrate para disfrutar de canciones y podcasts sin limites, con anuncios ocasionales. No hace falta tarjeta de credito.</p>
       </div>
-      <div>
+      <div> <!-- Boton registrate gratis -->
           <button class="btn btn-outline-light rounded-pill mt-3 fw-bold" style="margin-right:20px ;">Registrate Gratis</button>
       </div>
   </div>
 </footer>
+
 </html>
