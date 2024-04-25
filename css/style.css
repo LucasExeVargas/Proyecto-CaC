@@ -38,11 +38,12 @@ body{
     padding-right: 30px;
 
 }
-
+/*
 .buttonA{
     margin-right: 24px;
     padding-top: 12px;
 }
+*/
 
 .col-lg-3{
     padding-right: 7px;
@@ -147,23 +148,24 @@ body{
     padding-bottom: 10px; /* Agrega un poco de espacio inferior para evitar que el contenido se solape con la barra de desplazamiento */
 }
 
-.section {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px; /* Ajusta el espacio entre secciones según tus necesidades */
-    white-space: normal; /* Restablece el comportamiento de salto de línea */
-}
 .artista-item {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar horizontalmente */
     justify-content: center; /* Centrar verticalmente */
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.artista-item img:hover {
+    transform: scale(1.1); /* Cambia el valor según la cantidad que desees agrandar la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave para que el cambio de tamaño sea más gradual */
 }
 
 .container-principal { /*borde del contenedor de artistas*/
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    margin-top: 20px; /* Ajusta este valor según sea necesario */
+    margin-top: 10px; /* Ajusta este valor según sea necesario */
 }
 
 /* Agregamos margen a los elementos dentro del main */
