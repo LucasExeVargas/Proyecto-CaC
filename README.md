@@ -13,17 +13,17 @@ El objetivo principal es aplicar los conocimientos adquiridos durante el curso, 
 ### Backend
 - Java (Spring Boot)
 - API RESTful
-- SQL (MySQL o PostgreSQL)
-- JPA / Hibernate
+- SQL (MySQL)
+
 
 ### Frontend
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (opcional)
+- Bootstrap 
 
 ### Otros
-- API de clima (por ejemplo: OpenWeatherMap)
+- API de clima 
 - Control de versiones con Git
 
 ## 🌦️ Funcionalidad de clima
@@ -34,8 +34,5 @@ La aplicación utiliza una API de clima para mostrar información meteorológica
 
 Se utilizó una base de datos relacional tipo SQL para gestionar:
 - Usuarios
-- Canciones
-- Playlists
 - Sesiones
-- Registros de clima (opcional, para historial)
 
